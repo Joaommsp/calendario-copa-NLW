@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #121214 url(../assets/bg.svg);
+  background-position-x: center;
+  background-position-y: -700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  width: fit-content;
+  margin: 52px auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 63px;
+}
+
+#Logo-NLW {
+  margin: 1rem auto;
+}
+
+#Logo-JM {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 10%;
+}
+
+ul {
+  list-style: none;
+}
+
+#cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#cards img {
+  width: 50px;
+  height: 50px;
+}
+
+.card {
+  background-color: #1d1c19;
+  padding: 32px 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.card h2 {
+  width: fit-content;
+  padding: 16px 8px;
+  margin-bottom: 53px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #f7dd43;
+  border-radius: 6px;
+  color: #f7dd43;
+  font-size: 24px;
+}
+
+.card h2 span {
+  color: #e1e1e6;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card ul li {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card ul li + li {
+  padding-top: 24px;
+  border-top: 1px solid #e1e1e6;
+}
+
+.card ul li strong {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 125%;
+  color: #e1e1e6;
+}
