@@ -103,6 +103,7 @@ ul {
 .card {
   width: fit-content;
   background-color: var(--card-bg-color);
+  margin: 2%;
   padding: 32px 23px;
   display: flex;
   flex-direction: column;
