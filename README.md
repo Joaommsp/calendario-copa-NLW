@@ -12,7 +12,7 @@
 
 <p align="center">Calendário de toda a fase de Grupos da Copa do Mundo Qatar 2022 </p>
 
-<img src="img/README_BANNER2.png" alt="" >
+<img src="img/README_Banner2.png" alt="" >
 
 # Tecnologias
 
