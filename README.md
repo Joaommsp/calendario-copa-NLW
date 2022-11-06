@@ -10,7 +10,7 @@
 
 # Sobre
 
-<p align="center">Calendário de toda a fase de Grupos da Copa do Mundo Qatar 2002 </p>
+<p align="center">Calendário de toda a fase de Grupos da Copa do Mundo Qatar 2022 </p>
 
 <img src="img/README_BANNER2.png" alt="" >
 
